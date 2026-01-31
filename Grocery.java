@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
 public class Grocery {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String strProdName, strAnotherP;
@@ -12,7 +14,7 @@ public class Grocery {
             dBill = 0;
             do {
                 System.out.println("\nWelcome to EFM Grocery");
-                System.out.print("Input product name: ");
+                System.out.print("Product name: ");
                 strProdName = input.nextLine();
                 System.out.print("Price: ");
                 dPrice = input.nextDouble();
@@ -30,17 +32,21 @@ public class Grocery {
                 strAnotherP = input.nextLine();
                 cAnotherP = strAnotherP.charAt(0);
             } while ((cAnotherP == 'Y') || (cAnotherP == 'y'));
-            System.out.println("Bill: " + dBill);
-            System.out.print("Payment: ");
-            dPay = input.nextDouble();
-            input.nextLine();
 
-            if (dPay >= dBill) {
-                dChange = dPay - dBill;
-                System.out.println("Change: " + dChange);
-                System.out.println("Thank you for shopping");
-            } else {
-                System.out.println("Money is not enough!");
+            while (true) {
+                System.out.println("Bill: " + dBill);
+                System.out.print("Payment: ");
+                dPay = input.nextDouble();
+                input.nextLine();
+
+                if (dPay >= dBill) {
+                    dChange = dPay - dBill;
+                    System.out.println("Change: " + dChange);
+                    System.out.println("Thank you for shopping");
+                    break;
+                } else {
+                    System.out.println("Money is not enough!");
+                }
             }
 
             System.out.print("Another costumer Y/N? ");

@@ -1,33 +1,54 @@
+
 import java.util.Scanner;
 
 public class ClothingBrands {
+
     public static Scanner input = new Scanner(System.in);
+    public static int registration = 0;
 
     public static void main(String[] args) {
 
         String strBrand; // brand name
-        String strItemCategory; // tops, footwear, bottoms, Outerwear, accessory
-        String strProductName; //
+        String strproduct; // tops, footwear, bottoms, Outerwear, accessory
+        String strColor; //
         String strSize; // S, M , L XL, XS
         double dPrice; // $000.000
-        String strResponse = "";
+        char strResponse = 'y'; // another registration
+
+        System.out.println("========================================");
+        System.out.println("          WELCOME TO JXY STORE");
+        System.out.println("========================================");
 
         do {
-            System.out.println("\t\t  Welcome to JXY store");
-            System.out.println("--------------------------------------------------------");
-            System.out.println("\t\tR E G I S T R A T I O N ");
-            System.out.print("Brand Name: ");
+
+            System.out.println("\n          PRODUCT REGISTRATION");
+            System.out.println();
+
+            System.out.print("[ Brand Name ]  ");
             strBrand = input.nextLine();
-            System.out.print("Category: ");
-            strItemCategory = input.nextLine();
-            System.out.print("Product Name: ");
-            strProductName = input.nextLine();
-            System.out.print("Size: ");
+
+            System.out.print("[ Product ]  ");
+            strproduct = input.nextLine();
+
+            System.out.print("[ Color ]  ");
+            strColor = input.nextLine();
+
+            System.out.print("[ Size ]  ");
             strSize = input.nextLine();
-            System.out.print("Price: ");
+
+            System.out.print("[ Price ]  $");
             dPrice = input.nextDouble();
-        } while (strResponse == "y" || strResponse == "Y");
-        anotherRegistration();
+            input.nextLine();
+
+            registration++; // counts number of registrations
+
+            strResponse = anotherRegistration(); // asks user if another registration
+
+        } while (strResponse == 'y' || strResponse == 'Y');
+
+        int iCount = numberOfRegistrations();
+        System.out.println(iCount + " items registered");
+        System.out.println("========================================");
     }
 
     public static String inputString() {
@@ -43,11 +64,18 @@ public class ClothingBrands {
 
     }
 
-    public static String anotherRegistration() {
+    public static char anotherRegistration() { // asks user if another registration
 
-        System.out.print("Another costumer Y/N? ");
+        System.out.println("----------------------------------------");
+        System.out.print("\tAnother costumer? (Y/N): ");
         String another = input.nextLine();
-        return another;
+        char cAnother = another.charAt(0);
+        System.out.println("----------------------------------------");
+        return cAnother;
+    }
+
+    public static int numberOfRegistrations() { // counts number of registrations
+        return registration;
     }
 
 }
