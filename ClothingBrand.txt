@@ -1,0 +1,24 @@
+========================================
+          WELCOME TO JXY STORE
+========================================
+         PRODUCT REGISTRATION 
+Brand name: sdsa
+Product: deas
+Color: das
+Size: das
+Price:das
+----------------------------------------	Another costumer? (Y/N): ----------------------------------------
+         PRODUCT REGISTRATION 
+Brand name: sdsa
+Product: deas
+Color: das
+Size: das
+Price:das
+	Another costumer? (Y/N): n
+
+Brand name: sdfsdf
+Product: sdf
+Color: ds
+Size: f
+Price:sdf
+-----------------

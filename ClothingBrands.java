@@ -24,19 +24,19 @@ public class ClothingBrands {
             System.out.println("\n          PRODUCT REGISTRATION");
             System.out.println();
 
-            System.out.print("[ Brand Name ]  ");
+            System.out.print("[ Brand Name ] ");
             strBrand = input.nextLine();
 
-            System.out.print("[ Product ]  ");
+            System.out.print("[ Product ] ");
             strproduct = input.nextLine();
 
-            System.out.print("[ Color ]  ");
+            System.out.print("[ Color ] ");
             strColor = input.nextLine();
 
-            System.out.print("[ Size ]  ");
+            System.out.print("[ Size ] ");
             strSize = input.nextLine();
 
-            System.out.print("[ Price ]  $");
+            System.out.print("[ Price ] $");
             dPrice = input.nextDouble();
             input.nextLine();
 

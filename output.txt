@@ -1,0 +1,12 @@
+Jee
+19
+Jelly
+20
+jelyan
+21
+jilyan
+22
+Hello World
+This is Data Structures!
+I am 21 years old
+Weight 34.35
