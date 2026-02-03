@@ -6,10 +6,12 @@ import java.util.Scanner;
 
 public class Clothing {
     public static void main(String[] args) throws IOException {
-        File output = new File("ClothingBrand.txt"); // File var = new File ("File name"); assigns a text to a var
+        File output = new File("Clothing.txt"); // File var = new File ("File name"); assigns a text to a var
         FileWriter fw = new FileWriter(output); // FileWriter var = new FileWriter(filevar); to write to the text file
         Scanner input = new Scanner(System.in);
         StringBuilder sb = new StringBuilder();
+        int registration = 0;
+        char strResponse = 'y';
 
         System.out.println("========================================");
         fw.write("========================================");
@@ -17,12 +19,10 @@ public class Clothing {
         fw.write("\n          WELCOME TO JXY STORE");
         System.out.println("========================================");
         fw.write("\n========================================");
-        char strResponse = 'y';
-        int registration = 0;
 
         do {
-            System.out.println("          PRODUCT REGISTRATION");
-            fw.write("\n         PRODUCT REGISTRATION ");
+            System.out.println("\t  PRODUCT REGISTRATION");
+            fw.write("\n\t  PRODUCT REGISTRATION ");
             System.out.print("Brand name: ");
             sb.append("\nBrand name: ").append(input.nextLine()).append("\n");
             System.out.print("Product: ");
@@ -37,11 +37,11 @@ public class Clothing {
             registration++;
             System.out.println("----------------------------------------");
             fw.write("----------------------------------------");
-            System.out.print("\tAnother costumer? (Y/N): ");
-            fw.write("\tAnother costumer? (Y/N): ");
-            sb.append("\tAnother costumer? (Y/N): ").append(input.nextLine().charAt(0)).append("\n");
-            System.out.println("----------------------------------------");
-            fw.write("----------------------------------------");
+            System.out.print("\n\tAnother customer? (Y/N): ");
+            strResponse = input.nextLine().charAt(0);
+            fw.write("\n\tAnother customer? (Y/N): " + strResponse);
+            sb.append("\n\tAnother customer? (Y/N): ").append(strResponse).append("\n");
+            System.out.println("\n----------------------------------------");
 
         } while (strResponse == 'y' || strResponse == 'Y');
 
