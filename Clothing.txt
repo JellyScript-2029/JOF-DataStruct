@@ -2,10 +2,13 @@
           WELCOME TO JXY STORE
 ========================================
 	  PRODUCT REGISTRATION 
-Brand name: 12
-Product: 121
-Color: 2
-Size: 121
-Price:1
-----------------------------------------
-	Another customer? (Y/N): n1 items registered========================================
+Brand name: Bench
+Product: t shirt
+Color: blue
+Size: small
+Price:45
+========================================
+	Another customer? (Y/N): n
+========================================
+1 items registered
+========================================
