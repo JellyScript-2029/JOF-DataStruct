@@ -1,32 +1,32 @@
 Nike
 Air Jordan 1
 10
-Red/Black
+Red
 170.00
 Adidas
 Ultraboost
 9
-Triple White
+White
 180.00
 Gucci
 Leather Belt
 M
-Black/Gold
+Black
 450.00
 Zara
 Oversized Hoodie
 L
-Heather Gray
+Gray
 45.90
 Levis
 501 Original Jeans
 32x34
-Dark Wash Indigo
+Indigo
 69.50
 North Face
 Nuptse Jacket
 XL
-Summit Gold
+Gold
 320.00
 Converse
 Chuck Taylor 70s
@@ -36,15 +36,15 @@ Parchment
 Uniqlo
 Airism T-Shirt
 S
-Navy Blue
+Blue
 19.90
 Puma
 Suede Classic
 11
-Forest Green
+Green
 70.00
 Balenciaga
 Triple S Sneaker
 42
-Multi-Color
+Pink
 950.00

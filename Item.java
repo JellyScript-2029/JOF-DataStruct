@@ -14,6 +14,6 @@ public class Item {
     }
 
     public String toString(){
-        return  "Brand: " + brand + "\nProduct: " + prodName + "\nSize: " + size + "\nColor: " + color + "\nPrice: $" + price;
+        return  String.format("%-15s %-23s %-8s %-12s $%.2f", brand, prodName, size, color, price);
     }
 }
