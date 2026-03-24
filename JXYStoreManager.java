@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class JXYStoreManager {
-    private static final String FILE_NAME = "shop.txt";
+    private static final String FILE_NAME = "C:\\Users\\STUDENT\\Documents\\JOF-DataStruct\\dsa\\items.txt";
     private static ArrayList<String> inventory = new ArrayList<>();
     private static Scanner input = new Scanner(System.in);
 
