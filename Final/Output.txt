@@ -1,0 +1,201 @@
+-----------------------------------------
+        Core-Mart Inventory & POS        
+-----------------------------------------
+QTY   ITEM                           AMT
+-----------------------------------------
+ 5     Chippy                       23.00
+ 7     c2                           45.00
+ 6     Tang apple                   34.00
+-----------------------------------------
+TOTAL:                             634.00
+-----------------------------------------
+CASH:    1000.00
+CHANGE:                            366.00
+=========================================
+
+         THANK YOU FOR PURCHASING        
+=========================================
+=====================================================================
+                     S Y S T E M   R E P O R T S
+=====================================================================
+
+        [TRANSACTION SUMMARY]
+            For rent:                                         0
+            For sale:                                         1
+
+        [GENRE BREAKDOWN]
+            Horror:                                           0
+            Scifi:                                            0
+            Drama:                                            0
+            Comedy:                                           0
+            Cartoons:                                         1
+
+        [FORMAT TOTALS]
+            VCD:                                              1
+            DVD:                                              0
+            Tape:                                             0
+=====================================================================
+
+================================================================================
+                                LIST OF ALL ITEMS                                
+================================================================================
+BRAND           PRODUCT                   SIZE       COLOR                PRICE
+--------------------------------------------------------------------------------
+
+Zara            Oversized Blazer          XL         Beige                89.90
+Uniqlo          Airism T-Shirt            S          White                19.90
+Puma            Suede Classic             9          Orange               75.00
+Nike            Air Jordan 1              10.5       Chicago Red         150.00
+Nike            Air Force 1               7          pink                340.00
+Nike            Tech Fleece Hoodie        L          Dark Grey           110.00
+Levis           511 Slim Fit              32x30      Indigo               69.50
+Levi's          501 Original Fit          32x32      Light Wash          543.00
+H&M             Cotton Chinos             34         khaki               452.00
+Gucci           Double G Belt             95         Black               490.00
+Dickies         874 Work Pants            32x32      Charcoal             45.00
+Dickies         874 Work Pants            32x32      Charcoal            450.00
+Champion        Reverse Weave Crew        L          Navy                 60.00
+Adidas          Tiro Training pants       M          Black                76.00
+Adidas          Originals Superstar       9.5        Cloud White         100.00
+Patagonia       Better Sweater            M          Grey                100.00
+Zara            Blazer                    M          Blue                456.00
+--------------------------------------------------------------------------------
+
+=========================== ACTION: ADD ITEM AT END ============================
+New Item: Adidas       Samba                  36       White          200.00
+=================================== UPDATED LIST =================================
+BRAND           PRODUCT                   SIZE       COLOR                PRICE
+--------------------------------------------------------------------------------
+Zara            Oversized Blazer          XL         Beige                89.90
+Uniqlo          Airism T-Shirt            S          White                19.90
+Puma            Suede Classic             9          Orange               75.00
+Nike            Air Jordan 1              10.5       Chicago Red         150.00
+Nike            Air Force 1               7          pink                340.00
+Nike            Tech Fleece Hoodie        L          Dark Grey           110.00
+Levis           511 Slim Fit              32x30      Indigo               69.50
+Levi's          501 Original Fit          32x32      Light Wash          543.00
+H&M             Cotton Chinos             34         khaki               452.00
+Gucci           Double G Belt             95         Black               490.00
+Dickies         874 Work Pants            32x32      Charcoal             45.00
+Dickies         874 Work Pants            32x32      Charcoal            450.00
+Champion        Reverse Weave Crew        L          Navy                 60.00
+Adidas          Tiro Training pants       M          Black                76.00
+Adidas          Originals Superstar       9.5        Cloud White         100.00
+Patagonia       Better Sweater            M          Grey                100.00
+Zara            Blazer                    M          Blue                456.00
+Adidas          Samba                     36         White               200.00
+--------------------------------------------------------------------------------
+TOTAL ITEMS: 18
+--------------------------------------------------------------------------------
+
+=========================== ACTION: ADD ITEM AT START ==========================
+New Item: Birkenstock  Arizona Soft Footbed   42       Yellow         900.00
+================================== UPDATED LIST ==================================
+BRAND           PRODUCT                   SIZE       COLOR                PRICE
+--------------------------------------------------------------------------------
+Birkenstock     Arizona Soft Footbed      42         Yellow              900.00
+Zara            Oversized Blazer          XL         Beige                89.90
+Uniqlo          Airism T-Shirt            S          White                19.90
+Puma            Suede Classic             9          Orange               75.00
+Nike            Air Jordan 1              10.5       Chicago Red         150.00
+Nike            Air Force 1               7          pink                340.00
+Nike            Tech Fleece Hoodie        L          Dark Grey           110.00
+Levis           511 Slim Fit              32x30      Indigo               69.50
+Levi's          501 Original Fit          32x32      Light Wash          543.00
+H&M             Cotton Chinos             34         khaki               452.00
+Gucci           Double G Belt             95         Black               490.00
+Dickies         874 Work Pants            32x32      Charcoal             45.00
+Dickies         874 Work Pants            32x32      Charcoal            450.00
+Champion        Reverse Weave Crew        L          Navy                 60.00
+Adidas          Tiro Training pants       M          Black                76.00
+Adidas          Originals Superstar       9.5        Cloud White         100.00
+Patagonia       Better Sweater            M          Grey                100.00
+Zara            Blazer                    M          Blue                456.00
+Adidas          Samba                     36         White               200.00
+--------------------------------------------------------------------------------
+TOTAL ITEMS: 19
+--------------------------------------------------------------------------------
+
+================== ACTION: EDIT PRODUCT (Index 5) ================== 
+========================== BEFORE EDIT =============================
+Brand: Nike
+Product: Air Force 1
+Size: 9
+Color: pink
+Price: $340.0
+=========================== AFTER EDIT =============================
+Brand: Nike
+Product: Air Force 1
+Size: 9
+Color: pink
+Price: $340.0
+--------------------------------------------------------------------------------
+TOTAL ITEMS: 20
+--------------------------------------------------------------------------------
+========================= ACTION: DELETE PRODUCT (SUCCESS) =====================
+REMOVED ITEM:  Nike         Air Jordan 1           10.5     Chicago Red     150.00
+-------------------------------------------------------------------------------
+TOTAL ITEMS: 19
+--------------------------------------------------------------------------------
+============================= IN ASCENDING ORDER ===============================
+BRAND           PRODUCT                   SIZE       COLOR                PRICE
+--------------------------------------------------------------------------------
+Adidas          Tiro Training pants       M          Black                76.00
+Adidas          Originals Superstar       9.5        Cloud White         100.00
+Adidas          Samba                     36         White               200.00
+Birkenstock     Arizona Soft Footbed      42         Yellow              900.00
+Champion        Reverse Weave Crew        L          Navy                 60.00
+Dickies         874 Work Pants            32x32      Charcoal             45.00
+Dickies         874 Work Pants            32x32      Charcoal            450.00
+Gucci           Double G Belt             95         Black               490.00
+H&M             Cotton Chinos             34         khaki               452.00
+Levi's          501 Original Fit          32x32      Light Wash          543.00
+Levis           511 Slim Fit              32x30      Indigo               69.50
+Lululemon       ABC Slim-Fit Pants        32         Black               400.00
+Nike            Air Force 1               9          pink                340.00
+Nike            Tech Fleece Hoodie        L          Dark Grey           110.00
+Patagonia       Better Sweater            M          Grey                100.00
+Puma            Suede Classic             9          Orange               75.00
+Uniqlo          Airism T-Shirt            S          White                19.90
+Zara            Oversized Blazer          XL         Beige                89.90
+Zara            Blazer                    M          Blue                456.00
+
+--------------------------------------------------------------------------------
+
+==================== ACTION: ADD ITEM AT A SPECIFIC POSITION ===================
+New Item: Nike         Air Jordan 1           42       Black          250.00
+================================== UPDATED LIST ==================================
+BRAND           PRODUCT                   SIZE       COLOR                PRICE
+--------------------------------------------------------------------------------
+Adidas          Tiro Training pants       M          Black                76.00
+Adidas          Originals Superstar       9.5        Cloud White         100.00
+Adidas          Samba                     36         White               200.00
+Birkenstock     Arizona Soft Footbed      42         Yellow              900.00
+Nike            Air Jordan 1              42         Black               250.00
+Champion        Reverse Weave Crew        L          Navy                 60.00
+Dickies         874 Work Pants            32x32      Charcoal             45.00
+Dickies         874 Work Pants            32x32      Charcoal            450.00
+Gucci           Double G Belt             95         Black               490.00
+H&M             Cotton Chinos             34         khaki               452.00
+Levi's          501 Original Fit          32x32      Light Wash          543.00
+Levis           511 Slim Fit              32x30      Indigo               69.50
+Lululemon       ABC Slim-Fit Pants        32         Black               400.00
+Nike            Air Force 1               9          pink                340.00
+Nike            Tech Fleece Hoodie        L          Dark Grey           110.00
+Patagonia       Better Sweater            M          Grey                100.00
+Puma            Suede Classic             9          Orange               75.00
+Uniqlo          Airism T-Shirt            S          White                19.90
+Zara            Oversized Blazer          XL         Beige                89.90
+Zara            Blazer                    M          Blue                456.00
+--------------------------------------------------------------------------------
+TOTAL ITEMS: 20
+--------------------------------------------------------------------------------
+
+============================= R E S U L T ===================================
+BRAND           PRODUCT                   SIZE       COLOR                PRICE
+--------------------------------------------------------------------------------
+Nike         Air Jordan 1           42       Black          250.00
+Nike         Air Force 1            9        pink           340.00
+Nike         Tech Fleece Hoodie     L        Dark Grey      110.00
+
+--------------------------------------------------------------------------------
