@@ -1,3 +1,4 @@
+package random;
 public class Lyrics {
     public static void main(String[] args) throws InterruptedException {
         String lyrics1 = "If you love me, baby, let me hear you say it";

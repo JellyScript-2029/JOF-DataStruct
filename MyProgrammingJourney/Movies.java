@@ -1,3 +1,4 @@
+package MyProgrammingJourney;
 import java.util.Scanner;
 
 public class Movies {
