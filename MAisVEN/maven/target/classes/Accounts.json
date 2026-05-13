@@ -1,0 +1,32 @@
+[
+  {
+    "accountNumber": "ACC001",
+    "pin": "1111",
+    "balance": 5000,
+    "name": "Jhelianne Figuerres"
+  },
+  {
+    "accountNumber": "ACC002",
+    "pin": "2222",
+    "balance": 12500.5,
+    "name": "Janiyah Tan"
+  },
+  {
+    "accountNumber": "ACC003",
+    "pin": "3333",
+    "balance": 800,
+    "name": "Briana Bustamante"
+  },
+  {
+    "accountNumber": "ACC004",
+    "pin": "4444",
+    "balance": 25000,
+    "name": "Jaydenn Viluan"
+  },
+  {
+    "accountNumber": "ACC005",
+    "pin": "5555",
+    "balance": 150,
+    "name": "Ahron Miranda"
+  }
+]
